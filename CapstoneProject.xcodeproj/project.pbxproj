@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		7085D54C2871AC1100292BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D54B2871AC1100292BA7 /* AppDelegate.swift */; };
 		7085D54E2871AC1100292BA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D54D2871AC1100292BA7 /* SceneDelegate.swift */; };
-		7085D5502871AC1100292BA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D54F2871AC1100292BA7 /* ViewController.swift */; };
+		7085D5502871AC1100292BA7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D54F2871AC1100292BA7 /* HomeViewController.swift */; };
 		7085D5532871AC1100292BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7085D5512871AC1100292BA7 /* Main.storyboard */; };
 		7085D5552871AC1300292BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7085D5542871AC1300292BA7 /* Assets.xcassets */; };
 		7085D5582871AC1300292BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7085D5562871AC1300292BA7 /* LaunchScreen.storyboard */; };
+		7085D5602871B31400292BA7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D55F2871B31400292BA7 /* SignInViewController.swift */; };
+		7085D5622871B32700292BA7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5612871B32700292BA7 /* SignUpViewController.swift */; };
+		7085D5642871B45900292BA7 /* NewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5632871B45900292BA7 /* NewMessageViewController.swift */; };
+		7085D5662871B48F00292BA7 /* CreateMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5652871B48F00292BA7 /* CreateMessageViewController.swift */; };
+		7085D5682871B4AB00292BA7 /* SelectMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5672871B4AB00292BA7 /* SelectMessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7085D5482871AC1100292BA7 /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7085D54B2871AC1100292BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7085D54D2871AC1100292BA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7085D54F2871AC1100292BA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7085D54F2871AC1100292BA7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7085D5522871AC1100292BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7085D5542871AC1300292BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7085D5572871AC1300292BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7085D5592871AC1300292BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7085D55F2871B31400292BA7 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7085D5612871B32700292BA7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7085D5632871B45900292BA7 /* NewMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewController.swift; sourceTree = "<group>"; };
+		7085D5652871B48F00292BA7 /* CreateMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMessageViewController.swift; sourceTree = "<group>"; };
+		7085D5672871B4AB00292BA7 /* SelectMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,26 @@
 			children = (
 				7085D54B2871AC1100292BA7 /* AppDelegate.swift */,
 				7085D54D2871AC1100292BA7 /* SceneDelegate.swift */,
-				7085D54F2871AC1100292BA7 /* ViewController.swift */,
 				7085D5512871AC1100292BA7 /* Main.storyboard */,
+				7085D5692871B50E00292BA7 /* Controllers */,
 				7085D5542871AC1300292BA7 /* Assets.xcassets */,
 				7085D5562871AC1300292BA7 /* LaunchScreen.storyboard */,
 				7085D5592871AC1300292BA7 /* Info.plist */,
 			);
 			path = CapstoneProject;
+			sourceTree = "<group>";
+		};
+		7085D5692871B50E00292BA7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7085D54F2871AC1100292BA7 /* HomeViewController.swift */,
+				7085D5612871B32700292BA7 /* SignUpViewController.swift */,
+				7085D55F2871B31400292BA7 /* SignInViewController.swift */,
+				7085D5632871B45900292BA7 /* NewMessageViewController.swift */,
+				7085D5652871B48F00292BA7 /* CreateMessageViewController.swift */,
+				7085D5672871B4AB00292BA7 /* SelectMessageViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7085D5502871AC1100292BA7 /* ViewController.swift in Sources */,
+				7085D5682871B4AB00292BA7 /* SelectMessageViewController.swift in Sources */,
+				7085D5602871B31400292BA7 /* SignInViewController.swift in Sources */,
+				7085D5642871B45900292BA7 /* NewMessageViewController.swift in Sources */,
+				7085D5502871AC1100292BA7 /* HomeViewController.swift in Sources */,
+				7085D5662871B48F00292BA7 /* CreateMessageViewController.swift in Sources */,
 				7085D54C2871AC1100292BA7 /* AppDelegate.swift in Sources */,
 				7085D54E2871AC1100292BA7 /* SceneDelegate.swift in Sources */,
+				7085D5622871B32700292BA7 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
