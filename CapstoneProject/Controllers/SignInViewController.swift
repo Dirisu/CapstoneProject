@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import FirebaseAuth
 
 class SignInMessageViewController: UIViewController {
 
@@ -19,6 +20,23 @@ class SignInMessageViewController: UIViewController {
     }
 
     @IBAction func signInButton(_ sender: UIButton) {
+        
+        if let email =  emailTextField.text, let password = passwordTextField.text {
+            
+            Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                
+                if let error = error {
+                    
+                    print(error.localizedDescription)
+                // segue to the welcome screen
+                } else {
+                    
+                    self.performSegue(withIdentifier: "SignIn", sender: self)
+                    
+                }
+            }
+                
+        }
     }
     
 }
