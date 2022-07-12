@@ -28,6 +28,7 @@ class SignInMessageViewController: UIViewController {
                 if let error = error {
                     
                     print(error.localizedDescription)
+                    
                 // segue to the welcome screen
                 } else {
                     

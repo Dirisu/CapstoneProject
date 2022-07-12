@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		702036882876262B001EA903 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702036872876262B001EA903 /* SideMenu.swift */; };
-		7020368A28762670001EA903 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020368928762670001EA903 /* SideMenuViewController.swift */; };
-		7020368C287627D1001EA903 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020368B287627D1001EA903 /* tableViewCell.swift */; };
+		7020368A28762670001EA903 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020368928762670001EA903 /* QuizViewController.swift */; };
 		7020368E28785594001EA903 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7020368D28785594001EA903 /* GoogleService-Info.plist */; };
+		702036922879AF0D001EA903 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702036912879AF0D001EA903 /* TableViewCell.swift */; };
+		70203700287D116B001EA903 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702036FF287D116B001EA903 /* Question.swift */; };
 		7085D54C2871AC1100292BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D54B2871AC1100292BA7 /* AppDelegate.swift */; };
 		7085D54E2871AC1100292BA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D54D2871AC1100292BA7 /* SceneDelegate.swift */; };
 		7085D5502871AC1100292BA7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D54F2871AC1100292BA7 /* HomeViewController.swift */; };
@@ -19,9 +20,9 @@
 		7085D5582871AC1300292BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7085D5562871AC1300292BA7 /* LaunchScreen.storyboard */; };
 		7085D5602871B31400292BA7 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D55F2871B31400292BA7 /* SignInViewController.swift */; };
 		7085D5622871B32700292BA7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5612871B32700292BA7 /* SignUpViewController.swift */; };
-		7085D5642871B45900292BA7 /* NewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5632871B45900292BA7 /* NewMessageViewController.swift */; };
+		7085D5642871B45900292BA7 /* OnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5632871B45900292BA7 /* OnBoardViewController.swift */; };
 		7085D5662871B48F00292BA7 /* CreateMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5652871B48F00292BA7 /* CreateMessageViewController.swift */; };
-		7085D5682871B4AB00292BA7 /* SelectMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5672871B4AB00292BA7 /* SelectMessageViewController.swift */; };
+		7085D5682871B4AB00292BA7 /* TakeNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D5672871B4AB00292BA7 /* TakeNotesViewController.swift */; };
 		7085D56B2872944600292BA7 /* AdviceSlipClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D56A2872944600292BA7 /* AdviceSlipClient.swift */; };
 		7085D56D2872945F00292BA7 /* AdviceSlipResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085D56C2872945F00292BA7 /* AdviceSlipResponse.swift */; };
 		72CECA9F441777E853CB2C88 /* Pods_CapstoneProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556EBBC8168B91B9D100847B /* Pods_CapstoneProject.framework */; };
@@ -31,9 +32,10 @@
 		556EBBC8168B91B9D100847B /* Pods_CapstoneProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapstoneProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69547404091760E5587AD97A /* Pods-CapstoneProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapstoneProject.release.xcconfig"; path = "Target Support Files/Pods-CapstoneProject/Pods-CapstoneProject.release.xcconfig"; sourceTree = "<group>"; };
 		702036872876262B001EA903 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
-		7020368928762670001EA903 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
-		7020368B287627D1001EA903 /* tableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
+		7020368928762670001EA903 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		7020368D28785594001EA903 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		702036912879AF0D001EA903 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		702036FF287D116B001EA903 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		7085D5482871AC1100292BA7 /* CapstoneProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7085D54B2871AC1100292BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7085D54D2871AC1100292BA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		7085D5592871AC1300292BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7085D55F2871B31400292BA7 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		7085D5612871B32700292BA7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		7085D5632871B45900292BA7 /* NewMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageViewController.swift; sourceTree = "<group>"; };
+		7085D5632871B45900292BA7 /* OnBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardViewController.swift; sourceTree = "<group>"; };
 		7085D5652871B48F00292BA7 /* CreateMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMessageViewController.swift; sourceTree = "<group>"; };
-		7085D5672871B4AB00292BA7 /* SelectMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMessageViewController.swift; sourceTree = "<group>"; };
+		7085D5672871B4AB00292BA7 /* TakeNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeNotesViewController.swift; sourceTree = "<group>"; };
 		7085D56A2872944600292BA7 /* AdviceSlipClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceSlipClient.swift; sourceTree = "<group>"; };
 		7085D56C2872945F00292BA7 /* AdviceSlipResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceSlipResponse.swift; sourceTree = "<group>"; };
 		B0A8126E58BE18C28D8F44D0 /* Pods-CapstoneProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapstoneProject.debug.xcconfig"; path = "Target Support Files/Pods-CapstoneProject/Pods-CapstoneProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,9 +98,9 @@
 				7085D54B2871AC1100292BA7 /* AppDelegate.swift */,
 				7085D54D2871AC1100292BA7 /* SceneDelegate.swift */,
 				7085D5512871AC1100292BA7 /* Main.storyboard */,
-				7020368B287627D1001EA903 /* tableViewCell.swift */,
 				702036872876262B001EA903 /* SideMenu.swift */,
 				7085D56A2872944600292BA7 /* AdviceSlipClient.swift */,
+				702036FF287D116B001EA903 /* Question.swift */,
 				7085D56C2872945F00292BA7 /* AdviceSlipResponse.swift */,
 				7085D5692871B50E00292BA7 /* Controllers */,
 				7085D5542871AC1300292BA7 /* Assets.xcassets */,
@@ -115,10 +117,11 @@
 				7085D54F2871AC1100292BA7 /* HomeViewController.swift */,
 				7085D5612871B32700292BA7 /* SignUpViewController.swift */,
 				7085D55F2871B31400292BA7 /* SignInViewController.swift */,
-				7085D5632871B45900292BA7 /* NewMessageViewController.swift */,
+				7085D5632871B45900292BA7 /* OnBoardViewController.swift */,
 				7085D5652871B48F00292BA7 /* CreateMessageViewController.swift */,
-				7085D5672871B4AB00292BA7 /* SelectMessageViewController.swift */,
-				7020368928762670001EA903 /* SideMenuViewController.swift */,
+				7085D5672871B4AB00292BA7 /* TakeNotesViewController.swift */,
+				702036912879AF0D001EA903 /* TableViewCell.swift */,
+				7020368928762670001EA903 /* QuizViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,7 +132,6 @@
 				B0A8126E58BE18C28D8F44D0 /* Pods-CapstoneProject.debug.xcconfig */,
 				69547404091760E5587AD97A /* Pods-CapstoneProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,12 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7020368C287627D1001EA903 /* tableViewCell.swift in Sources */,
+				702036922879AF0D001EA903 /* TableViewCell.swift in Sources */,
 				702036882876262B001EA903 /* SideMenu.swift in Sources */,
-				7085D5682871B4AB00292BA7 /* SelectMessageViewController.swift in Sources */,
+				7085D5682871B4AB00292BA7 /* TakeNotesViewController.swift in Sources */,
 				7085D5602871B31400292BA7 /* SignInViewController.swift in Sources */,
-				7085D5642871B45900292BA7 /* NewMessageViewController.swift in Sources */,
-				7020368A28762670001EA903 /* SideMenuViewController.swift in Sources */,
+				7085D5642871B45900292BA7 /* OnBoardViewController.swift in Sources */,
+				70203700287D116B001EA903 /* Question.swift in Sources */,
+				7020368A28762670001EA903 /* QuizViewController.swift in Sources */,
 				7085D5502871AC1100292BA7 /* HomeViewController.swift in Sources */,
 				7085D5662871B48F00292BA7 /* CreateMessageViewController.swift in Sources */,
 				7085D56D2872945F00292BA7 /* AdviceSlipResponse.swift in Sources */,

@@ -1,13 +1,15 @@
 //
-//  tableViewCell.swift
+//  TableViewCell.swift
 //  CapstoneProject
 //
-//  Created by Marvellous Dirisu on 06/07/2022.
+//  Created by Marvellous Dirisu on 09/07/2022.
 //
 
 import UIKit
 
-class tableViewCell: UITableViewCell {
+class TableViewCell: UITableViewCell {
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -8,6 +8,18 @@
 import Foundation
 import UIKit
 
+class QuizViewController: UIViewController {
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var table: UITableView!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+}
+
 //class SideMenuViewController: UIViewController {
 //
 //    @IBOutlet weak var menuTableView: UITableView!

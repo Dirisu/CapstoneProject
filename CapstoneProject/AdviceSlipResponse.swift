@@ -7,7 +7,16 @@
 
 import Foundation
 
-struct AdviceSlipResponse: Codable {
-    var slip_id : Int
-    var advice : String
+//struct Slip: Codable {
+//    var slip : AdviceSlipResponse
+//}
+//
+//struct AdviceSlipResponse: Codable {
+//    var id : Int
+//    var advice : String
+//}
+struct Quotes {
+    var q : String
+    var a : String
+    var h : String
 }

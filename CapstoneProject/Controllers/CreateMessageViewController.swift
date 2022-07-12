@@ -11,7 +11,8 @@ import UIKit
 class CreateMessageViewController: UIViewController {
 
     @IBOutlet weak var messageLabel: UILabel!
-    @IBOutlet weak var messageTextField: UITextField!
+    @IBOutlet weak var trueButton: UIButton!
+    @IBOutlet weak var falseButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,8 @@ class CreateMessageViewController: UIViewController {
     }
 
     @IBAction func sendButton(_ sender: UIButton) {
+        
+        
     }
     
 }
