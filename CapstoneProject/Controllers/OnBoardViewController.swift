@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import CLTypingLabel
+import FirebaseAuth
 
 class OnBoardViewController: UIViewController {
 
@@ -22,12 +23,22 @@ class OnBoardViewController: UIViewController {
 
     
     @IBAction func takeNoteButton(_ sender: UIButton) {
-    }
-    @IBAction func startQuizButton(_ sender: UIButton) {
         
-//        let vc = storyboard?.instantiateViewController(withIdentifier: "Quiz") as! QuizViewController
-//        vc.modalPresentationStyle = .fullScreen
-//        present(vc, animated: true)
+    }
+    
+    @IBAction func startQuizButton(_ sender: UIButton) {
+        performSegue(withIdentifier: "quizView", sender: self)
+        
+    }
+    @IBAction func logoutButton(_ sender: UIBarButtonItem) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+            navigationController?.popViewController(animated: true)
+            
+        } catch let signOutError as NSError {
+            print("Error signing out: %@", signOutError)
+        }
     }
     
 }
