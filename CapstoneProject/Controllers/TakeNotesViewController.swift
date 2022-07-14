@@ -7,12 +7,16 @@
 
 import Foundation
 import UIKit
+import FirebaseAuth
+import FirebaseFirestore
 
 class TakeNotesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var models : [Models] = []
+    let db = Firestore.firestore()
+    
+    var models : [Modes] = []
     
     
     override func viewDidLoad() {
@@ -50,8 +54,8 @@ class TakeNotesViewController: UIViewController, UITableViewDelegate, UITableVie
             return
         }
         vc.title = "Note"
-        vc.noteTitle = model.title!
-        vc.note = model.note!
+        vc.noteTitle = model.title
+        vc.note = model.note
         navigationController?.pushViewController(vc, animated: true)
         
     }
@@ -62,13 +66,27 @@ class TakeNotesViewController: UIViewController, UITableViewDelegate, UITableVie
             return
     }
         
+        
+//        db.collection(titleTextField.text!).addDocument(data: [text : titleTextField.text!, note : noteTextArea.text!]) { (error) in
+//
+//            if let e = error {
+//                print("error \(e)")
+//            } else {
+//                print("saved")
+//            }
+//
+//
+//        }
+        
+        
         vc.title = "New Note"
         vc.completion = { noteTitle, note in
             self.navigationController?.popViewController(animated: true)
-            self.models.append(models)
+            self.models.append(Modes.init(title: noteTitle, note: note))
             self.tableView.isHidden = true
             self.tableView.isHidden = false
             self.tableView.reloadData()
+            
         }
         navigationController?.pushViewController(vc, animated: true)
     }

@@ -22,7 +22,7 @@ class NoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        loadNotes()
+        loadNotes()
         
         titleTextField.becomeFirstResponder()
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(didTapSave))
@@ -48,6 +48,7 @@ class NoteViewController: UIViewController {
         
     }
     
+}
     func loadNotes() {
         db.collection(titleTextField.text!).getDocuments { (querySnapshot, error) in
             if let e = error {
@@ -62,5 +63,4 @@ class NoteViewController: UIViewController {
         }
     }
     
-}
 }
